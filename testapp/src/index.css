@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image {
+  margin-right: 30px;
+  padding: 30px;
+  height: 300px;
+  width: 400px;
+}
+
+/* FileUpload.css */
+
+/* Container styles */
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Heading styles */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Upload area styles */
+.upload-area {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition: border-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.file-input-wrapper {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.input-file {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-area:hover {
+  border-color: #007bff;
+  /* Change the border color on hover */
+}
+
+/* Input file styles (hidden) */
+.input-file {
+  display: none;
+}
+
+/* Description textarea styles */
+textarea {
+  width: 30%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+/* Upload button styles */
+.upload-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+  /* Darker shade on hover */
+}
+
+/* Uploaded image styles */
